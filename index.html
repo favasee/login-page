@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <title>login</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./animation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      function authenticate() {
+          var userId = document.getElementById('userId').value;
+          var password = document.getElementById('password').value;
+
+          // Check user ID and password
+          if (userId === 'DMP443' && password === '1689') {
+              window.location.href = 'https://favasee.github.io/page-1/';
+          } else if (userId === 'DMP446' && password === '1689') {
+              window.location.href = 'https://favasee.github.io/page-2/';
+          } else if (userId === 'DMP449' && password === '1689') {
+              window.location.href = 'https://favasee.github.io/page3/';
+          } else {
+              alert('Invalid credentials. Please try again.');
+          }
+      }
+  </script>
+  
+  </head>
+  <body>
+    <div class="parent-div">
+      <div class="node-38133" id="id-38133">
+        <!-- Ellipse 4 -->
+        <div class="node-38135" id="id-38135"></div>
+        <!-- Ellipse 5 -->
+        <div class="node-38134" id="id-38134"></div>
+        <!-- Ellipse 3 -->
+        <div class="node-38137" id="id-38137"></div>
+        <!-- Ellipse 1 -->
+        <div class="node-38138" id="id-38138"></div>
+        <!-- Rectangle 16 -->
+        <div class="node-38136" id="id-38136"></div>
+        <!-- Rectangle 22 -->
+        <div class="node-38139" id="id-38139">
+          
+        </div>
+        <!-- Rectangle 37 -->
+        <div class="node-38140" id="id-38140"></div>
+
+        <form action="">
+
+          <!-- user name -->
+          <div class="node-38142" id="id-38142">
+            <span class="node-38142-0"><input type="text" id="userId" name="userId" class="input" required placeholder="User name" ></span>
+          </div>
+
+        <!-- Password -->
+        <div class="node-38141" id="id-38141">
+          <span class="node-38141-0"><input type="password" id="password" name="password" required class="input" placeholder="Password" ></span>
+        </div>
+
+         <!-- Group 2216 -->
+         <div class="node-4689" id="id-4689">
+          <!-- Rectangle 36 -->
+          <div class="node-I4689_38145" id="id-I4689_38145"></div>
+          <!-- Login -->
+          <div class="node-I4689_38146" id="id-I4689_38146">
+            <span class="node-I4689_38146-0"><button type="button" class="manu" onclick="authenticate()">Login</button></span>
+          </div>
+        </div>
+
+      </form>
+      
+
+
+        <!-- welcome back -->
+        <div class="node-38143" id="id-38143">
+          <span class="node-38143-0">welcome back</span>
+        </div>
+        <!-- logIn -->
+        <div class="node-38144" id="id-38144">
+          <span class="node-38144-0">logIn</span>
+        </div>
+       
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
